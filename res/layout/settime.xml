@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/uptime"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class1"
+			android:id="@+id/settime1u"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime2u"
+			android:text="@string/class2"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class3"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime3u"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class4"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime4u"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class5"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime5u"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime6u"
+			android:text="@string/class6"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class7"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime7u"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class8"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime8u"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/downtime"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class1"
+			android:id="@+id/settime1d"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime2d"
+			android:text="@string/class2"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class3"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime3d"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class4"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime4d"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class5"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime5d"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime6d"
+			android:text="@string/class6"
+			style="?android:attr/buttonStyleSmall"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class7"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime7d"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="@string/class8"
+			android:layout_width="wrap_content"
+			android:id="@+id/settime8d"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:gravity="center_vertical">
+
+		<TimePicker
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/times"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="@string/timesetalert"
+		android:layout_width="wrap_content"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:gravity="center_horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="@string/save"
+			android:layout_width="wrap_content"
+			android:id="@+id/timesave"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/setting"
+		android:gravity="center"
+		android:rotation="-45"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:height="50dp"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="30dp"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:text="@string/widgettheme"
+			android:textSize="20sp"/>
+
+		<Button
+			android:id="@+id/widgettheme"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:enabled="true"
+			android:text="@string/set_widget"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="30dp"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:text="@string/settime"
+			android:textSize="20sp"/>
+
+		<Button
+			android:id="@+id/settime"
+			android:text="@string/settime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:enabled="true"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="30dp"
+		android:gravity="center_vertical">
+
+		<TextView
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:text="@string/night"
+			android:textSize="20sp"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/nightcheck"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="30dp"
+		android:gravity="center_vertical"
+		android:visibility="invisible">
+
+		<TextView
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:text="@string/inclass"
+			android:textSize="20sp"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/ringswitch"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="30dp"
+		android:gravity="center_vertical">
+
+		<Button
+			android:id="@+id/set_save"
+			android:layout_width="70dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:text="@string/save"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="我绝对不会告诉你们，修改保存按钮只对那个“夜间模式”有效！（夜间模式好像也没什么用。。。）"
+			android:layout_width="wrap_content"
+			android:visibility="invisible"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="让我苦恼的是，插件是没法修改背景的！只能用很多个插件。。。"
+			android:layout_width="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

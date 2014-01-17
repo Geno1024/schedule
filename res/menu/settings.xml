@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/set_menu_save"
+        android:title="@string/save"/>
+	
+	<item
+		android:id="@+id/set_menu_return"
+		android:title="@string/quit"/>
+    
+</menu>

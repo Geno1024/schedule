@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Widget3"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:background="#80ffffff">
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/thisclass"
+			android:layout_width="wrap_content"
+			android:textColor="#000000"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/thisclass"
+			android:layout_width="wrap_content"
+			android:id="@+id/class00"
+			android:textColor="#000000"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/nextclass"
+			android:layout_width="wrap_content"
+			android:textColor="#000000"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/nextclass"
+			android:layout_width="wrap_content"
+			android:id="@+id/class01"
+			android:textColor="#000000"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="@string/time"
+			android:layout_width="wrap_content"
+			android:id="@+id/clockwid"
+			android:textColor="#000000"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+</GridLayout>
+

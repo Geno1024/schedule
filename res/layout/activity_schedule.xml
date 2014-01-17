@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="1280px">
+
+	<TableLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:id="@+id/Bg">
+
+		<TableRow>
+
+			<AnalogClock
+				android:layout_width="40dp"
+				android:layout_height="80dp"
+				android:id="@+id/clock"/>
+
+			<TextView
+				android:text="@string/monday"/>
+
+			<TextView
+				android:text="@string/tuesday"/>
+
+			<TextView
+				android:text="@string/wednesday"/>
+
+			<TextView
+				android:text="@string/thursday"/>
+
+			<TextView
+				android:text="@string/friday"/>
+
+			<TextView
+				android:text="@string/saturday"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class1"
+				android:id="@+id/time1"/>
+
+			<EditText
+				android:id="@+id/mon_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:inputType="text"
+				android:scrollHorizontally="true"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/sat_1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class2"
+				android:id="@+id/time2"/>
+
+			<EditText
+				android:id="@+id/mon_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/sat_2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class3"
+				android:id="@+id/time3"/>
+
+			<EditText
+				android:id="@+id/mon_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/sat_3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class4"
+				android:id="@+id/time4"/>
+
+			<EditText
+				android:id="@+id/mon_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/sat_4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class5"
+				android:id="@+id/time5"/>
+
+			<EditText
+				android:id="@+id/mon_5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/sat_5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class6"
+				android:id="@+id/time6"/>
+
+			<EditText
+				android:id="@+id/mon_6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<Button
+				android:id="@+id/button_save"
+				android:layout_width="50dp"
+				android:layout_height="35sp"
+				android:text="@string/save"
+				style="?android:attr/buttonStyleSmall"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class7"
+				android:id="@+id/time7"/>
+
+			<EditText
+				android:id="@+id/mon_7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<DigitalClock
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:text="@string/time_class8"
+				android:id="@+id/time8"/>
+
+			<EditText
+				android:id="@+id/mon_8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/tue_8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/wed_8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/thu_8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/fri_8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:hint="@string/space"
+				android:textColor="#000000"
+				android:textSize="15sp"/>
+
+			<Button
+				android:id="@+id/button_quit"
+				android:layout_width="12dp"
+				android:layout_height="35sp"
+				android:text="@string/quit"
+				style="?android:attr/buttonStyleSmall"/>
+
+		</TableRow>
+
+	</TableLayout>
+
+</HorizontalScrollView>
+

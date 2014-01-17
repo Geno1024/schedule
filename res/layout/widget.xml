@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Widget"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:background="#80ffffff">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:text="@string/app_name"
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class6"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class7"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class8"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/monday"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"
+			android:id="@+id/class11"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"
+			android:id="@+id/class12"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"
+			android:id="@+id/class13"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"
+			android:id="@+id/class14"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"
+			android:id="@+id/class15"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class6"
+			android:id="@+id/class16"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class7"
+			android:id="@+id/class17"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class8"
+			android:id="@+id/class18"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/tuesday"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"
+			android:id="@+id/class21"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"
+			android:id="@+id/class22"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"
+			android:id="@+id/class23"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"
+			android:id="@+id/class24"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"
+			android:id="@+id/class25"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class6"
+			android:id="@+id/class26"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class7"
+			android:id="@+id/class27"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class8"
+			android:id="@+id/class28"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/wednesday"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"
+			android:id="@+id/class31"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"
+			android:id="@+id/class32"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"
+			android:id="@+id/class33"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"
+			android:id="@+id/class34"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"
+			android:id="@+id/class35"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class6"
+			android:id="@+id/class36"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class7"
+			android:id="@+id/class37"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class8"
+			android:id="@+id/class38"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/thursday"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"
+			android:id="@+id/class41"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"
+			android:id="@+id/class42"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"
+			android:id="@+id/class43"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"
+			android:id="@+id/class44"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"
+			android:id="@+id/class45"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class6"
+			android:id="@+id/class46"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class7"
+			android:id="@+id/class47"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class8"
+			android:id="@+id/class48"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/friday"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"
+			android:id="@+id/class51"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"
+			android:id="@+id/class52"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"
+			android:id="@+id/class53"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"
+			android:id="@+id/class54"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"
+			android:id="@+id/class55"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class6"
+			android:id="@+id/class56"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class7"
+			android:id="@+id/class57"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class8"
+			android:id="@+id/class58"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/saturday"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class1"
+			android:id="@+id/class61"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class2"
+			android:id="@+id/class62"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class3"
+			android:id="@+id/class63"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class4"
+			android:id="@+id/class64"/>
+
+		<TextView
+			android:layout_height="32dp"
+			android:layout_width="50dp"
+			android:gravity="center"
+			android:textColor="#000000"
+			android:text="@string/class5"
+			android:id="@+id/class65"/>
+
+	</LinearLayout>
+
+</GridLayout>
+
